@@ -3,7 +3,7 @@
 ## Installing Dart:
 
 - The Dart SDK, or Dart Software Development Kit, contains libraries and command-line tools that you need to develop Dart command-line, server, and non-Flutter web apps.
-- If you’re developing Flutter apps, then you don’t need to separately download the [Dart SDK](https://dart.dev/get-dart); just [install Flutter.](https://flutter.dev/docs/get-started/install) The Flutter SDK includes the Dart SDK. 
+- If you’re developing Flutter apps, then you don’t need to separately download the [Dart SDK](https://dart.dev/get-dart); just [install Flutter.](https://flutter.dev/docs/get-started/install) The Flutter SDK includes the Dart SDK.
 
 ## Android Studio Plugins:
 
@@ -27,19 +27,19 @@
 Usage: dart [<vm-flags>] <command|dart-file> [<arguments>]
 
 Global options:
--h, --help                 Print this usage information.
--v, --verbose              Show additional command output.
+-h, --help Print this usage information.
+-v, --verbose Show additional command output.
 
 Available commands:
-  analyze   Analyze Dart code in a directory.
-  compile   Compile Dart to various formats.
-  create    Create a new Dart project.
-  fix       Apply automated fixes to Dart source code.
-  format    Idiomatically format Dart source code.
-  migrate   Perform null safety migration on a project.
-  pub       Work with packages.
-  run       Run a Dart program.
-  test      Run tests for a project
+analyze Analyze Dart code in a directory.
+compile Compile Dart to various formats.
+create Create a new Dart project.
+fix Apply automated fixes to Dart source code.
+format Idiomatically format Dart source code.
+migrate Perform null safety migration on a project.
+pub Work with packages.
+run Run a Dart program.
+test Run tests for a project
 ```
 
 ## Create Dart Project
@@ -48,9 +48,9 @@ Available commands:
 
   - `dart create -t console-full myProjectName` // create console log Dart project
 
-- ###  With VS Code:
+- ### With VS Code:
 
-  - Ctrl + Shift + P > `dart` >  Create 
+  - Ctrl + Shift + P > `dart` > Create
 
 ## Run Dart Project
 
@@ -61,9 +61,9 @@ Available commands:
 
 - ### VS Code:
 
-  - Ctrl + F5  runs debugger 
+  - Ctrl + F5 runs debugger
 
-- ### Debug w/ Dart Dev Tools 
+- ### Debug w/ Dart Dev Tools
 
   - Active Devtool:
     - Note Devtools require the Pub bin to be added in the System PATH
@@ -74,7 +74,7 @@ Available commands:
     - Copy URL link outputted in terminal
   - Paste Devtools URL in browser to access Devtools service page
     - Open terminal and type `devtools` in the console. The devtools web service will in a browser
-    - Paste the URL you copied from the previous terminal into the 'Connect to a Running App' text box in  the devtools web service.
+    - Paste the URL you copied from the previous terminal into the 'Connect to a Running App' text box in the devtools web service.
 
 ## Packages
 
@@ -102,18 +102,17 @@ Available commands:
 
 ```markdown
 Usage: dart pub [arguments...]
--h, --help          Print this usage information.
--v, --verbose       Shortcut for "--verbosity=all".
+-h, --help Print this usage information.
+-v, --verbose Shortcut for "--verbosity=all".
 
 'Common' subcommands:
-  add         Add a dependency to pubspec.yaml.
-  cache       Work with the system cache.
-  deps        Print package dependencies.
-  get         Get the current package's dependencies.
-  publish     Publish the current package to pub.dartlang.org.
-  remove      Removes a dependency from the current package.
-  upgrade     Upgrade the current package's dependencies to latest versions.
-
+add Add a dependency to pubspec.yaml.
+cache Work with the system cache.
+deps Print package dependencies.
+get Get the current package's dependencies.
+publish Publish the current package to pub.dartlang.org.
+remove Removes a dependency from the current package.
+upgrade Upgrade the current package's dependencies to latest versions.
 ```
 
 ## Libraries
@@ -126,15 +125,14 @@ Usage: dart pub [arguments...]
 
 - Library file structure:
 
-  -- lib
+  ```markdown
+  lib/
+  ├─ src/
+  │ └─ some_action.dart/
+  └─ my_package.dart/
+  ```
 
-    -- src
-
-  ​	-- some_action.dart
-
-    -- my_package.dart
-
-  
+- ###
 
 - ### Lint Rules
 
