@@ -46,16 +46,16 @@ test Run tests for a project
 
 - ### With CLI:
 
-  - `dart create -t console-full myProjectName` // create console log Dart project
+  - `dart create -t console-full myProjectName`
 
 - ### With VS Code:
 
-  - Ctrl + Shift + P > `dart` > Create
+  - `Ctrl + Shift + P > dart > Create`
 
 ## Run Dart Project
 
 - By default, Dart projects are located in the `/bin` folder. The run command looks for projects to run from that predefined location.
-- `dart run projectName` // runs a dart project in console
+- Run a Dart project in CLI: `dart run projectName`
 
 ## Debug Dart Project
 
@@ -146,4 +146,4 @@ upgrade Upgrade the current package's dependencies to latest versions.
 
   - Tests are written in the `/test` folder .
 
-  - `dart test`, runs tests for a project/package in the terminal
+  - Run tests for a project/package in CLI: `dart test`
